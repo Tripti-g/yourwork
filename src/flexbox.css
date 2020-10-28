@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    background-color: pink;
+}
+.main{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    
+    background-color: blue;
+}
+.about-us{
+    width: 100%;
+    height: 60vh;
+    background-color: yellow;
+    margin: 2rem 0rem;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+
+.head{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 40vh;
+    width: 100%;
+    background-color: paleturquoise;
+    margin: auto 2rem;
+    
+}
+.members{
+    width: 100%;
+    height: 60vh;
+    background-color:red;
+    margin-bottom: 2rem;
+    text-align: center; 
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+.team{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 40vh;
+    width: 100%;
+    background-color: paleturquoise;
+    margin: auto 2rem;
+    
+}
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: grey;
+    margin: auto;
+}
+.speciality{
+    width: 100%;
+    height: 80vh;
+    background-color: green;
+    margin: auto 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: paleturquoise;
+    margin: 1rem 1rem;
+}
